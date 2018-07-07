@@ -28,7 +28,7 @@ class App extends Component {
           let partyObject = {}
           partyObject.name = party.englishCode;
           partyObject.electedSeats = party.electedSeats;
-          partyObject.totalVotes = party.totalVotes;
+          partyObject.totalVotes = party.totalVotes.toLocaleString();
           partyObject.seatDifference = (party.electedSeats) - (party.previousElected)
           partyObject.displayOrder = party.displayOrder;
           partyObject.key = uniqid();

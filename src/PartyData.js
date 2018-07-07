@@ -71,7 +71,7 @@ const PartyData = (props)=>{
                         <p> { party.totalVotes } votes</p>
                         {/*  If seat difference is posive, a plus sign is added and the text is blue.
                             If the seat difference is negative, the text is orange */}
-                        <p style={ party.seatDifference > 0 ? textPositive : textNegative }>{ party.seatDifference > 0 ? "+" : null} {party.seatDifference === 0 ? null : party.seatDifference } seats</p>
+                        <p style={ party.seatDifference > 0 ? textPositive : textNegative }>{ party.seatDifference > 0 ? "+" : "-" } {party.seatDifference === 0 ? null : party.seatDifference < 0 ? (party.seatDifference * -1) : party.seatDifference } seats</p>
                     </Card.Content>
                 </Card>
             )
@@ -106,7 +106,7 @@ const PartyData = (props)=>{
                     </Card.Content>
                     <Card.Content extra>
                         <p> { party.totalVotes } votes</p>
-                        <p style={ party.seatDifference > 0 ? textPositive : textNegative }>{ party.seatDifference > 0 ? "+" : null} {party.seatDifference === 0 ? null : party.seatDifference } seats</p>
+                        <p style={ party.seatDifference > 0 ? textPositive : textNegative }>{ party.seatDifference > 0 ? "+" : "-" } {party.seatDifference === 0 ? null : party.seatDifference < 0 ? (party.seatDifference * -1) : party.seatDifference } seats</p>
                     </Card.Content>
                 </Card>
             )
@@ -136,7 +136,7 @@ const PartyData = (props)=>{
                     </Card.Content>
                     <Card.Content extra>
                         <p> { party.totalVotes } votes</p>
-                        <p style={ party.seatDifference > 0 ? textPositive : textNegative }>{ party.seatDifference > 0 ? "+" : null} {party.seatDifference === 0 ? null : party.seatDifference }</p>
+                        <p style={ party.seatDifference > 0 ? textPositive : textNegative }>{ party.seatDifference > 0 ? "+" : "-" } {party.seatDifference === 0 ? null : party.seatDifference < 0 ? (party.seatDifference * -1) : party.seatDifference } seats</p>
                     </Card.Content>
                 </Card>
     })
