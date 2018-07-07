@@ -136,7 +136,6 @@ const PartyData = (props)=>{
                     </Card.Content>
                     <Card.Content extra>
                         <p> { party.totalVotes } votes</p>
-                        <p style={ party.seatDifference > 0 ? textPositive : textNegative }>{ party.seatDifference > 0 ? "+" : "-" } {party.seatDifference === 0 ? null : party.seatDifference < 0 ? (party.seatDifference * -1) : party.seatDifference } seats</p>
                     </Card.Content>
                 </Card>
     })
