@@ -14,7 +14,7 @@ const ElectionDataContainer = (props) => {
             <Grid centered columns={ 2 } stackable doubling> 
                 <Grid.Row>
                     <Grid.Column width = { 5 }> 
-                        <ElectionDescription/> 
+                        <ElectionDescription /> 
                     </Grid.Column>
                     <Grid.Column width = { 9 }>
                         <PartyData loadMore= { props.loadMore } electionData= { props.electionData }/> 

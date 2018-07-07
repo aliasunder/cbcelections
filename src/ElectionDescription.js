@@ -2,7 +2,7 @@ import React from 'react';
 import { Segment, Divider, Header } from 'semantic-ui-react';
 import './ElectionDescription.css';
 
-// text and card style variable
+// text and card style variables
 const cardStyle = {
     backgroundColor: "#f8f8f9",
 }

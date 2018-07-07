@@ -12,7 +12,6 @@ Additional Packages used:
 * uniqid
 * semantic-ui-react
 
-
 ## Install App
 ```
 git clone https://github.com/aliasunder/cbcelections.git
