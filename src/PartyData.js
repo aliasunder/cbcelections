@@ -152,6 +152,6 @@ const PartyData = (props)=>{
             </div>         
             
         )
-    }
+}
 
 export default PartyData;

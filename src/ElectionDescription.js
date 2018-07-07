@@ -16,7 +16,7 @@ const descriptionStyle = {
     fontSize: "1.5em"
 }
 
-const ElectionDescription = (props)=>{
+const ElectionDescription = ()=>{
     return (
         <Segment className="news__font" style={ cardStyle } basic>
             <Segment basic>
