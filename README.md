@@ -3,10 +3,11 @@
 This app displays election data. It is built with React, with Semantic-UI used for design.
 
 ## Key Attributes
-* responsive
+* Responsive
+* Class components are used for components with state and stateless functional components are used for components without state (presentational components).
 * The CSS in JS approach is used for most of the basic styling. For a larger application, all styling would be in a css file linked to a specific component or an official CSS-in-JS library
 
-Packages used:
+Additional Packages used:
 * axios
 * uniqid
 * semantic-ui-react
