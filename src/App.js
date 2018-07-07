@@ -13,6 +13,7 @@ class App extends Component {
     this.handleButtonClick = this.handleButtonClick.bind(this);
   }
 
+  // on mount, get CBC elections data
   componentWillMount() {
     const electionURL = 'https://canopy.cbc.ca/live/election_hub2/ON/current_toplevel'
 
@@ -44,6 +45,7 @@ class App extends Component {
     })
   }
 
+  // when "Load More" button is clicked, loadMore is set to true and additional party data will appear
   handleButtonClick(){
     this.setState({
       loadMore: true
